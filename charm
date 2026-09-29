@@ -430,3 +430,652 @@ if not _G._TO_OLS1_ProtectionWatchdog then
 end
 
 -- @TO_OLS1 https://t.me/+Uu0Mt5JU8bs3YjE8 SAAD
+
+
+-- Dont Remove Cr @RAHMANYVI 
+
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.86406594e-27;1.83298864e-04;4.04256210e-28", gg.TYPE_FLOAT)
+gg.refineNumber("6.86406594e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 240
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Case 15  0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("5.71548848e-23;1.83109791e-04;4.04256210e-28;1.22263707e-04;1.00989700e-28;1.90751598e-06", gg.TYPE_FLOAT)
+gg.refineNumber("5.71548848e-23", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 196
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("anogs 10 year fix 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("8.07794337e-28;6.69280051e-33;1.41233921e-13;1.01371804e-28;1.20805709e-13;1.22582215e-13", gg.TYPE_FLOAT)
+gg.refineNumber("1.22582215e-13", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0xD8
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("anogs memcpy skin 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.74879218e11;1.20805723e-13;4.76848641e-7;2.74879218e11", gg.TYPE_FLOAT)
+gg.refineNumber("2.74879218e11", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0xC
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("anogs offline ban 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.41233935e-13;4.1707017e34", gg.TYPE_FLOAT)
+gg.refineNumber("4.1707017e34", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0x5A8
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("anogs 1 day full fixer 0x" .. hexoffsetMTG .. " // Value 905970764")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.46235008e-27;6.46235085e-27;-6.95763763e-27", gg.TYPE_FLOAT)
+gg.refineNumber("-6.95763763e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 4
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("anogs 1 day full fixer 0x" .. hexoffsetMTG .. " // Value -1258290656")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.85976358e-04;1.41234070e-13;1.58099532e-02", gg.TYPE_FLOAT)
+gg.refineNumber("1.85976358e-04", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 192
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("anogs 1 day fixer 0x" .. hexoffsetMTG .. " // Value -763363275")
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-6.91375647e-27", gg.TYPE_FLOAT)
+gg.refineNumber("-6.91375647e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("kingroot Anogs 0x"..hexoffsetMTG)
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-6.91187753e-27", gg.TYPE_FLOAT)
+gg.refineNumber("-6.91187753e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Magisk Anogs 0x"..hexoffsetMTG)
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-6.90962497e-27", gg.TYPE_FLOAT)
+gg.refineNumber("-6.90962497e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("supersu Anogs 0x"..hexoffsetMTG)
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-6.91073045e-27", gg.TYPE_FLOAT)
+gg.refineNumber("-6.91073045e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Noshufou.Android.Su  Anogs 0x"..hexoffsetMTG)
+gg.clearResults()
+gg.setVisible(false)
+print("👆This Bypass For Root Detection Blocker ")
+print("\n")
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1033081774", gg.TYPE_DWORD)
+gg.refineNumber("1033081774", gg.TYPE_DWORD)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libgcloud.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -698416192
+print("Island libgcloud  0x" .. hexoffsetMTG .. "  offline on  " .. realValue)
+print("Offline off value 1033081774")
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1033081774", gg.TYPE_DWORD)
+gg.refineNumber("1033081774", gg.TYPE_DWORD)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libgcloud.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -698416192
+print("Island libgcloud  0x" .. hexoffsetMTG .. "  offline on  " .. realValue)
+print("Offline off value 1033081774")
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("16843522", gg.TYPE_DWORD)
+gg.refineNumber("16843522", gg.TYPE_DWORD)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libgcloud.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -698416192
+print("Island libgcloud  0x" .. hexoffsetMTG .. "  offline on  " .. realValue)
+print("Offline off value 16843522")
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("16843522", gg.TYPE_DWORD)
+gg.refineNumber("16843522", gg.TYPE_DWORD)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libgcloud.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -698416192 -- 
+print("Island libgcloud  0x" .. hexoffsetMTG .. "  offline on  " .. realValue)
+print("Offline off value 16843522")
+print("👆This Bypass For Online Ban & Report Blocker ")
+print("\n ")
+
+
+
+
+
+
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.65623409e26;2.20023148e12", gg.TYPE_FLOAT)
+gg.refineNumber("2.20023148e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(3)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libTDataMaster.so")[1].start
+local offsetaddressMTG = valueMTG[3].address - libMTG + 16
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = 335544321
+print(" libTDataMaster.so  0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.65623409e26;2.20023148e12", gg.TYPE_FLOAT)
+gg.refineNumber("2.20023148e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(3)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libTDataMaster.so")[1].start
+local offsetaddressMTG = valueMTG[3].address - libMTG - 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = 335544321
+print(" libTDataMaster.so  0x" .. hexoffsetMTG .. "    " .. realValue)
+print("👆This Bypass Speed & Coordinate Ban Protection ")
+print("\n ")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.17225341e-10;4.76853529e-7", gg.TYPE_FLOAT)
+gg.refineNumber("1.17225341e-10", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+-- By @RAHMANYVI 
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 28
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -698416192
+print(" libanogs.so  0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("5.14287747e-39", gg.TYPE_FLOAT)
+gg.refineNumber("5.14287747e-39", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libUE4.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 0
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = 64
+print(" libUE4  0x" .. hexoffsetMTG .. "    " .. realValue)
+print("👆 In Lobby Anti-Ban & 10 Year Blocker")
+print("\n")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.65434495e-24;2.19904868e12;3.43749755e10", gg.TYPE_FLOAT)
+gg.refineNumber("2.19904868e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libUE4.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 68
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print(" Fix_Termination UE4 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.13700553e-13;6.57107653e-27", gg.TYPE_FLOAT)
+gg.refineNumber("6.57107653e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 4
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" Check whether the downloaded mrpcs file has been modified (returning 0 means modified) Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.75624755e11;1.20805709e-13", gg.TYPE_FLOAT)
+gg.refineNumber("1.20805709e-13", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 88
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" Check mrpcs integrity Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.74903335e11;2.91992044e11;6.90537038e30", gg.TYPE_FLOAT)
+gg.refineNumber("2.74903335e11", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 4
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" hash 1+7 Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.41582373e29;6.60321322e-23;6.46234931e-27", gg.TYPE_FLOAT)
+gg.refineNumber("6.60321322e-23", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(4)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[4].address - libMTG + 60
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" hash 1+7 Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.46234931e-27;1.21693996e-13;2.19912418e12;6.46236857e-27", gg.TYPE_FLOAT)
+gg.refineNumber("2.19912418e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 44
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" hash 1+7 Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.19922511e12;6.46234931e-27;6.46235316e-27", gg.TYPE_FLOAT)
+gg.refineNumber("2.19922511e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG + 44
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" hash 1+7 Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("8.79597558e12;2.19904842e12;2.74879218e11", gg.TYPE_FLOAT)
+gg.refineNumber("8.79597558e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(16)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[16].address - libMTG - 12
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" hash 1+7 Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.34079855e29;2.19914935e12;6.46234931e-27", gg.TYPE_FLOAT)
+gg.refineNumber("2.19914935e12", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(4)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[4].address - libMTG + 112
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -721215457
+print(" Hash Anogs 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3.15939357e11;7.55335462e30", gg.TYPE_FLOAT)
+gg.refineNumber("3.15939357e11", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 36
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+local realValue = -698416192
+print(" Anogs Flash bypass 0x" .. hexoffsetMTG .. "    " .. realValue)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.15477005e-13;1.13687271e-13", gg.TYPE_FLOAT)
+gg.refineNumber("1.13687271e-13", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libGCloudVoice.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG - 156
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Report Filter HOOK_LIB_NO_ORIG Hook_Ret libGCloudVoice.so 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.65435422e-24;1.20805709e-13", gg.TYPE_FLOAT)
+gg.refineNumber("1.65435422e-24", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(27)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[27].address - libMTG + 68
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB MM 10y Fixer Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("7.32862997e29;2.86818468e-14", gg.TYPE_FLOAT)
+gg.refineNumber("7.32862997e29", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 48
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB 10 year fixer Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.64067183e-24;3.02443666e27", gg.TYPE_FLOAT)
+gg.refineNumber("1.64067183e-24", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 108
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB memset 1d fixer Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.64067183e-24;3.08428026e27", gg.TYPE_FLOAT)
+gg.refineNumber("1.64067183e-24", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 76
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB memcpy 1d fixer Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3.36660499e-29;3.10520054e11", gg.TYPE_FLOAT)
+gg.refineNumber("3.36660499e-29", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 52
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB monitor Anogs 0x" .. hexoffsetMTG)
+
+
+
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.33930099e29;1.23470407e-13", gg.TYPE_FLOAT)
+gg.refineNumber("6.33930099e29", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(3)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[3].address - libMTG - 176
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB Kernel Spoofer Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.46234931e-27;4.76854041e-7", gg.TYPE_FLOAT)
+gg.refineNumber("4.76854041e-7", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(16)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[16].address - libMTG - 196
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB ID Spoofer Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("6.58511801e-23;4.76857622e-7", gg.TYPE_FLOAT)
+gg.refineNumber("6.58511801e-23", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG - 40
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB 1d Fixer Crc Anogs 0x" .. hexoffsetMTG)
+
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.5474922e26;6.46234931e-27", gg.TYPE_FLOAT)
+gg.refineNumber("1.5474922e26", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG - 88
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB Lobby kick Anogs 0x" .. hexoffsetMTG)
+print("\n") 
+    if choice == 1 then
+    end
+    gg.clearResults()
+    end
+    -- @RAHMANYVI 
+local function FKBB()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.41233826e-13;2.75951714e11;4.44013588e34", gg.TYPE_FLOAT)
+gg.refineNumber("1.41233826e-13", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(2)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[2].address - libMTG + 52
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print(" Hook_lib Case 35 Anogs 0x" .. hexoffsetMTG)
+print("\n")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("9.13883813e-9;6.34700487e29", gg.TYPE_FLOAT)
+gg.refineNumber("9.13883813e-9", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then
+    print("No result found!")
+    os.exit()
+end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG - 44
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("HOOK_LIB C37 Anogs 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("4.76913556e-07;4.16720868e-05;1.38828130e-10", gg.TYPE_FLOAT)
+gg.refineNumber("4.76913556e-07", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 244
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("String Crc Check 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("8.27716281e-23;2.63860190e-32;1.49227527e-13", gg.TYPE_FLOAT)
+gg.refineNumber("8.27716281e-23", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 252
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Same Algorithm 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.19215656e-07;4.03930728e-28;4.76884452e-07", gg.TYPE_FLOAT)
+gg.refineNumber("1.19215656e-07", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 240
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Runtime Disk Crc Check 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.65435768e-24;1.65435866e-24;7.62951913e-06", gg.TYPE_FLOAT)
+gg.refineNumber("1.65435768e-24", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 252
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Custom int Crc32 Check 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1.30575712e-13;4.57950300e-05;4.76913556e-07", gg.TYPE_FLOAT)
+gg.refineNumber("1.30575712e-13", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 256
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("Size Buffer Crc32 Check 0x" .. hexoffsetMTG)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("7.04861086e-27;2.91742948e-14;5.79047255e-23", gg.TYPE_FLOAT)
+gg.refineNumber("7.04861086e-27", gg.TYPE_FLOAT)
+local valueMTG = gg.getResults(1)
+if #valueMTG == 0 then print("No result found!") os.exit() end
+gg.clearResults()
+local libMTG = gg.getRangesList("libanogs.so")[1].start
+local offsetaddressMTG = valueMTG[1].address - libMTG + 192
+local hexoffsetMTG = string.format("%X", offsetaddressMTG)
+print("10year fix  0x" .. hexoffsetMTG
+print("      🌹 @RAHMANYVI 🌹")
